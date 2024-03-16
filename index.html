@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo_header">
+            <img src="indir.jpeg" alt="Logo">
+        </div>
+        <nav class="yazi">
+            <ul>
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#uretim">Üretim</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#haberler">Haberler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+                <select id="dil">
+                    <option value="tr" data-thumbnail="turkey-flag.png">Türkçe</option>
+                    <option value="en" data-thumbnail="eng-flag.png">İngilizce</option>
+                </select>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="1687.jpg" alt="Banner">
+    </div>
+
+
+<section id="anasayfa">
+
+
+<section id="hakkimizda">
+    <div class="hakkimizda-baslik">
+        <h2 class="baslik">HAKKIMIZDA</h2>
+    </div>
+    <div class="hakkimizda-yazi">
+        <p id="ust">Yenilendik,artık daha güçlüyüz...</p>
+        <p id="alt">HAKKIMIZDA__</p>
+        <p id="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/>
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/><br/>
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="hakkimizda-resim">
+        <img src="1687.jpg" alt="Resim">
+    </div>
+
+    
+</section>
+<div class="hakkimizda-son">
+    <div class="hakkimizda-icerik">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed sit amet tellus sit amet magna tincidunt <br/><br/>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed sit amet tellus sit <br/>amet magna tincidunt consequat. Nulla facilisi.</p>
+    </div>
+    <div class="arama">
+        <input type="text" placeholder="Arama yap">
+        <button id="araButton"type="submit">ARA</button>
+    </div>
+</div>
+
+
+<!-- Üretim İçeriği -->
+<section id="uretim">
+    <!--<h2 class="baslik">Üretim</h2>-->
+    <div class="uretim-container">
+        <div class="uretim-baslik">
+            <!-- Üretim başlığı -->
+            <h2 class="baslik">ÜRETİM</h2>
+        </div>
+        <div class="uretim-galeri">
+            <!-- Resim galerisi -->
+            <div class="gallery">
+                <div class="main-img">
+                    <img src="1687.jpg" alt="Resim 1">
+                </div>
+                <div class="thumbnails">
+                    <img src="1687.jpg" alt="Resim 1"data-index="1" class="thumbnail">
+                    <img src="indir.jpeg" alt="Resim 2" data-index="2"class="thumbnail">
+                    <img src="1687.jpg" alt="Resim 3" data-index="3"class="thumbnail">
+                    <img src="indir.jpeg" alt="Resim 4" data-index="4"class="thumbnail">
+                </div>
+            </div>
+        </div>
+        <div class="uretim-yazi">
+            <h2 id="ust">Proje ve </h2>
+            <h3 id="alt">TASARIMLAR__</h3>
+            <!-- Lorem ipsum yazıları -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt</p>
+            <p id="galeri-yazisi"></p>
+            <button id="devamButton"class="devam-butonu">DEVAMI</button>
+        </div>
+    </div>
+</section>
+
+<!-- Projeler İçeriği -->
+<section id="projeler">
+    
+    <div class="projeler-container">
+        <div class="projeler-sol">
+            <h2 class="baslik">PROJELER</h2>
+        </div>
+        <div class="projeler-orta">
+            <h3 class="underlined">YENİ MOBİL UYGULAMALARIMIZI</h3>
+            <h3>BURADAN İNDİREBİLİRSİNİZ</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed sit amet tellus sit amet magna tincidunt consequat. 
+                 Nulla facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+        </div>
+        <div class="projeler-sag">
+            <h3 >NEW ITEMS/OCAK 2018</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+            <h3 class="underlined">2018</h3>
+            <h3 class="underlined">PROJELERİMİZİ</h3>
+            <h3>İNCELEDİNİZ Mİ?</h3>
+        </div>
+    </div>
+    <section id="ekibimiz">
+        <div class="ekibimiz-container">
+            <div class="ekibimiz-kutu">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo 1">
+                </div>
+                <div class="icerik">
+                    <h3 class="ekibimiz-baslik">EKİBİMİZ</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+            </div>
+            <div class="ekibimiz-kutu">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo 2">
+                </div>
+                <div class="icerik">
+                    <h3 class="ekibimiz-baslik">TEKNOLOJİ</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+            </div>
+            <div class="ekibimiz-kutu">
+                <div class="logo">
+                    <img src="logo.jpg" alt="Logo 3">
+                </div>
+                <div class="icerik">
+                    <h3 class="ekibimiz-baslik">AR-GE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+</section>
+
+
+<section id="haberler">
+    <div class="haberler-container">
+        <div class="haberler-sol">
+            <h2 class="baslik">HABERLER</h2>
+        </div>
+        <div class="haberler-icerik">
+            <div class="ust-icerik">
+                <div class="ust-sol">
+                    <!-- Üst içeriğin sol kısmı (resim) -->
+                    <img class="haber_resim"src="logo.jpg" alt="Haber Resmi">
+                </div>
+                <div class="ust-sag">
+                    <!-- Üst içeriğin sağ kısmı (yazı) -->
+                    <h3>Bu bir haber başlığıdır</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+            </div>
+            <div class="alt-icerik">
+                <div class="alt-sol">
+                    <!-- Alt içeriğin sol kısmı -->
+                    <h3>Alt İçerik Başlığı 1</h3>
+                    <p>Birinci haber açıklama.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+                <div class="alt-orta">
+                    <!-- Alt içeriğin orta kısmı -->
+                    <h3>Alt İçerik Başlığı 2</h3>
+                    <p>İkinci haber açıklamaLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+                <div class="alt-sag">
+                    <!-- Alt içeriğin sağ kısmı -->
+                    <h3>Alt İçerik Başlığı 3</h3>
+                    <p>Üçüncü haber açıklama.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet tellus sit amet magna tincidunt consequat. Nulla facilisi.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="haberler-sag"></div>
+    </div>
+</section>
+
+<section id="iletisim">
+    <div class="iletisim-container">
+        <div class="iletisim-sol">
+            <h2 class="baslik">İLETİŞİM</h2>
+        </div>
+        <div class="iletisim-orta">
+            <h3>MESAJ GÖNDER</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="adSoyad">Adınız Soyadınız:</label><br>
+                    <input type="text" id="adSoyad" name="adSoyad" placeholder="Adınız Soyadınız">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz:</label><br>
+                    <input type="email" id="email" name="email" placeholder="E-posta Adresiniz">
+                </div>
+                <div class="form-group">
+                    <label for="konu">Konu:</label><br>
+                    <input type="text" id="konu" name="konu" placeholder="Konu">
+                </div>
+                <div class="form-group">
+                    <label for="mesaj">Mesajınız:</label><br>
+                    <textarea id="mesaj" name="mesaj" rows="6" placeholder="Mesajınız"></textarea>
+                </div>
+                <div class="form-group">
+                    <button id="gonderButton"type="submit">GÖNDER</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="iletisim-sag">
+            <div class="iletisim-bilgi">
+                <h3>Yönetim Adres</h3>
+                <p>Mahalle Mah. Cadde Cd</p>
+                <p>Maslak/İstanbul/Türkiye</p>
+            </div>
+            <div class="iletisim-bilgi">
+                <h3>Telefon</h3>
+                <p>(+90) 555 555 55 55</p>
+            </div>
+            <div class="iletisim-bilgi">
+                <h3>FABRİKA ADRES</h3>
+                <p>6. Organize Sanayi 2. Cadde No:20</p>
+                <p>(+90) 555 555 55 56</p>
+            </div>
+            <div class="iletisim-bilgi">
+                <h3>Telefon</h3>
+                <p>(+90) 555 555 55 55</p>
+            </div>
+            <div class="iletisim-bilgi">
+                <h3>E-mail / Web</h3>
+                <p>info@domain.com</p>
+                <p>www.domain.com</p>
+            </div>
+            <div class="iletisim-bilgi">
+                <h3>Sosyal Medya</h3>
+                <p>FACEBOOK</p>
+                <p>TWITTER</p>
+                <p>LINKEDIN</p>
+            </div>
+        </div>
+        
+        <div class="iletisim-bos"></div>
+    </div>
+</section>
+
+
+</section>
+<script src="script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var sidebar = document.getElementById("sidebar");
+        var toggleButton = document.getElementById("sidebar-toggle-button");
+    
+        toggleButton.addEventListener("click", function() {
+            sidebar.classList.toggle("active");
+            toggleButton.classList.toggle("active");
+        });
+    });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var dropdownButton = document.getElementById("dropdown-toggle");
+            var dropdownMenu = document.getElementById("dropdown-menu");
+        
+            dropdownButton.addEventListener("click", function() {
+                dropdownMenu.classList.toggle("active");
+            });
+        
+            // Dropdown menü dışında bir yere tıklanırsa menüyü kapat
+            document.addEventListener("click", function(event) {
+                if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.remove("active");
+                }
+            });
+        });
+        </script>
+        
+
+</body>
+</html>
